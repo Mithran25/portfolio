@@ -21,7 +21,7 @@ function About(){
         <div className="about_know"><h2>know</h2></div>
         <div className="about_me"><h2>About Me</h2></div>
         <div className="about_img">
-           <img src="src/assets/IMG_4523(1).jpg"></img>
+           <img src="src/components/myImage.jpg"></img>
         </div>
           
         <section className="about_content">

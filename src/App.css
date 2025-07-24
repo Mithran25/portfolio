@@ -273,10 +273,10 @@ main>section{
   }
 }
 
-@media (max-width:541px){
+@media (max-width:361px){
   .about_para{
-    width: 500px;
-    margin-left: 200px;
+    width: 100px;
+    margin-left: 330px;
   }
 }
 /*------------------------------------------------Resume-------------------------------------------*/
@@ -383,7 +383,7 @@ main>section{
   .content{
     flex-direction: column;
     width: 70%;
-    margin-left:15lvw;
+    margin-left:10lvw;
   }
   .list{
     flex: 200px;
@@ -398,9 +398,9 @@ main>section{
   }
 
 }
-@media (max-width:541px){
+@media (max-width:361px){
   .content{
-    width: 70%;
+    width: 80%;
   }
 }
 
