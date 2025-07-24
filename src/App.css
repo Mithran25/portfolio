@@ -273,6 +273,12 @@ main>section{
   }
 }
 
+@media (max-width:541px){
+  .about_para{
+    width: 500px;
+    margin-left: 200px;
+  }
+}
 /*------------------------------------------------Resume-------------------------------------------*/
 
 .Resume{
@@ -376,8 +382,8 @@ main>section{
   }
   .content{
     flex-direction: column;
-    width: 50%;
-    margin-left:24lvw;
+    width: 70%;
+    margin-left:15lvw;
   }
   .list{
     flex: 200px;
@@ -391,6 +397,11 @@ main>section{
     flex-direction: 00px;
   }
 
+}
+@media (max-width:541px){
+  .content{
+    width: 70%;
+  }
 }
 
 .project{
