@@ -70,8 +70,10 @@ nav>ul>a{
   text-decoration: none;
   margin-left: 40px;
   color: white;
-  font-size: 20px;
-  
+  font-size: 20px; 
+}
+nav>ul>a:hover{
+  color: crimson;
 }
 
 icon{
@@ -112,6 +114,7 @@ icon{
     
   }
   ul>a{
+    color: black;
     margin-bottom: 50px;
   }
   .navbar.active  {
@@ -273,6 +276,12 @@ main>section{
   }
 }
 
+@media (max-width:540px){
+  .about_para{
+    width: 550px;
+    margin-left: 170px;
+  }
+}
 @media (max-width:361px){
   .about_para{
     width: 100px;
@@ -398,11 +407,14 @@ main>section{
   }
 
 }
-@media (max-width:361px){
+@media (max-width:300px){
   .content{
-    width: 80%;
+    width: 100%;
   }
 }
+
+/*------------------------------------------------Projects-------------------------------------------*/
+
 
 .project{
   width: 100%;
@@ -438,6 +450,11 @@ main>section{
   cursor: pointer;
 }
 
+.p1>a{
+  text-decoration: none;
+  color: black;
+}
+
 @media (max-width:768px){
   .project{
     height: 130vh;
@@ -446,6 +463,9 @@ main>section{
     flex-direction: column;
   }
 }
+
+/*------------------------------------------------Contact-------------------------------------------*/
+
 
 .contact{
   width: 100%;

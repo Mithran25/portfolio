@@ -17,7 +17,7 @@ function About(){
       whileInView={{ opacity: 1, y: 0}}
       transition={{ duration: 0.6 }}
       viewport={{ once: true, amount: 0.2 }}
-      className="about">
+      className="about" id="about">
         <div className="about_know"><h2>know</h2></div>
         <div className="about_me"><h2>About Me</h2></div>
         <div className="about_img">

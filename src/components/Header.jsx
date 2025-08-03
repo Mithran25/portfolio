@@ -48,9 +48,9 @@ function Header() {
             <nav className={open?"navbar active":"navbar"}>
                 <ul>
                     <a href="/">Home</a>
-                    <a href="/">About</a>
-                    <a href="/">Projects</a>
-                    <a href="/">Contact</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
                 </ul>
             </nav>
 

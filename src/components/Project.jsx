@@ -17,12 +17,12 @@ function Project(){
                 whileInView={{opacity:1,y:0}}
                 transition={{duration:0.6}} 
                 viewport={{once:true,amount:0.2}}
-                className="project">
+                className="project" id="projects">
 
                    <div className="project_title"><h3>Projects</h3></div>
                    <div className="project_content">
-                    <div className="p1">CETA</div>
-                    <div className="p1">Porfolio</div>
+                    <div className="p1"><a href="https://ceta2k24.netlify.app/">CETA</a></div>
+                    <div className="p1"><a href="https://mithran25.github.io/portfolio/">Porfolio</a></div>
                    </div>
 
                 </motion.section>

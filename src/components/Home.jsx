@@ -36,9 +36,9 @@ function Home(){
               </div>
         
              <div className="main_content_icon">
-              <a href="/"><i class="fa-brands fa-linkedin-in"></i></a>
-              <a href="/"><i class="fa-brands fa-instagram"></i></a>
-              <a href="/"><i class="fa-brands fa-github"></i></a>
+              <a href="http://linkedin.com/in/navamithran"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://www.instagram.com/mr_.remo.__?igsh=ZWg1djFlNTk5OWQx&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://github.com/Mithran25"><i class="fa-brands fa-github"></i></a>
              </div>
 
           </motion.section> 

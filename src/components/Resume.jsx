@@ -12,7 +12,7 @@ function Experience(){
 
     return(
         <>
-            {page && (<section className="Resume">
+            {page && (<section className="Resume" id="resume">
                 <motion.div
                 initial={{opacity:0,y:100}}
                 whileInView={{opacity:1,y:0}}
