@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import resume from "./Navamithran_resume.pdf"
+import resume from "./Navamithran_Resume.pdf"
 function Home(){
 
     const[hero,setHero]=useState(false);    
@@ -33,7 +33,7 @@ function Home(){
 
               <div className="resume">
               <a href="mailto:navamithran25@gmail.com">Hire Me</a>
-              <a href={resume}>Resume</a>
+              <a href={resume} download>Resume</a>
               </div>
         
              <div className="main_content_icon">
