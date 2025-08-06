@@ -31,8 +31,8 @@ function Home(){
               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 
               <div className="resume">
-              <a href="/">Hire Me</a>
-              <a href="/">Resume</a>
+              <a href="mailto:navamithran25@gmail.com">Hire Me</a>
+              <a href="src/assets/Navamithran_resume.pdf">Resume</a>
               </div>
         
              <div className="main_content_icon">

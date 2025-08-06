@@ -113,13 +113,16 @@ icon{
     flex-direction: column;
     
   }
-  ul>a{
+  nav>ul>a{
     color: black;
     margin-bottom: 50px;
   }
   .navbar.active  {
     display: flex;
   }
+  /* .nav.hide{
+    display: none;
+  } */
 }
 
 /*------------------------------------------------Hero-------------------------------------------*/
@@ -230,7 +233,7 @@ main>section{
 }
 .about_content{
   grid-area: about_content;
-  margin: 5vh 0 0 10vh;
+  margin: 5vh 0 0 4vh;
 }
 .about_content>div>h3{
   font-size: 30px;
@@ -244,9 +247,10 @@ main>section{
 
 @media (max-width:768px){
   .about{
-    grid-template-areas: 'know''image''about_me''content';
+    grid-template-areas: 'know''image''about_me''about_content';
     grid-template-columns: 100%;
     height: 150vh;
+    margin-top: -100px;
   }
   .about_know{
     margin-left: 0%;
@@ -259,33 +263,26 @@ main>section{
     font-size: 40px;
     margin-right: 0%;
   }
-  .about_img>img{
-    margin-top: 10vh;
-  }
   .about_img{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 0%;
   }
-  .about_content{
-    margin-left: -100vh;
-  }
+  
   .about_para{
     display: flex;
   }
 }
 
-@media (max-width:540px){
-  .about_para{
-    width: 550px;
-    margin-left: 170px;
+
+@media (max-width:360px){
+  .about_content{
+    margin: 0 0 0 2vh;
+    place-content: left;
   }
-}
-@media (max-width:361px){
   .about_para{
-    width: 100px;
-    margin-left: 330px;
+    margin-left: -22px;
   }
 }
 /*------------------------------------------------Resume-------------------------------------------*/
@@ -356,6 +353,8 @@ main>section{
   height: 100%;
   min-width:200px ;
   background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   color: black;
   overflow: hidden;
 }
@@ -380,7 +379,6 @@ main>section{
 
 @media (max-width:768px){
   .Resume{
-    margin-top: 100px;
     height: 220vh;
   }
   .Resume-content{
@@ -392,7 +390,7 @@ main>section{
   .content{
     flex-direction: column;
     width: 70%;
-    margin-left:10lvw;
+    margin-left:15lvw;
   }
   .list{
     flex: 200px;
@@ -440,6 +438,7 @@ main>section{
   background-color: white;
   color: black;
   border-radius:10px ;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border:1px solid;
   border-style: none;
   width: 250px;
@@ -536,6 +535,9 @@ button{
 }
 
 @media (max-width:768px){
+  .contact{
+    margin-top:-100px ;
+  }
   .contact-let{
     margin-left: 0%;
     font-size: 30px;

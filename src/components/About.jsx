@@ -1,5 +1,6 @@
 import { useState,useEffect } from "react";
 import { motion } from "framer-motion";
+import image from "./myImage.jpg"
 function About(){
 
     const[about,setAbout]=useState(false);
@@ -21,7 +22,7 @@ function About(){
         <div className="about_know"><h2>know</h2></div>
         <div className="about_me"><h2>About Me</h2></div>
         <div className="about_img">
-           <img src="src/components/myImage.jpg"></img>
+           <img src={image}></img>
         </div>
           
         <section className="about_content">

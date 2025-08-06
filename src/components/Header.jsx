@@ -11,6 +11,11 @@ function Header() {
         return()=>clearTimeout(time);
     },[]);
 
+    // const[close,setClose]=useState(false);
+    // const nav_list=()=>{
+    //   setClose(!close);
+    // }
+
     const[open,setOpen]=useState(false);
     const nav=()=>{
         setOpen(!open);
@@ -45,12 +50,12 @@ function Header() {
       hero && (
         <header className={`header ${!show ? 'header--hidden' : ''} ${!isTop ? 'header--scrolled' : ''}`}>
             <h1>Navamithran</h1>
-            <nav className={open?"navbar active":"navbar"}>
+            <nav id='navbar' className={open?"navbar active":""}>
                 <ul>
-                    <a href="/">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#contact">Contact</a>
+                    <a onClick={nav} href="#">Home</a>
+                    <a onClick={nav} href="#about">About</a>
+                    <a onClick={nav} href="#projects">Projects</a>
+                    <a onClick={nav} href="#contact">Contact</a>
                 </ul>
             </nav>
 
