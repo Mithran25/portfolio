@@ -120,9 +120,6 @@ icon{
   .navbar.active  {
     display: flex;
   }
-  /* .nav.hide{
-    display: none;
-  } */
 }
 
 /*------------------------------------------------Hero-------------------------------------------*/
@@ -274,7 +271,15 @@ main>section{
     display: flex;
   }
 }
-
+@media (max-width:540px){
+  .about_content{
+    margin: 0 0 0 2vh;
+    place-content: left;
+  }
+  .about_para{
+    margin-left: -22px;
+  }
+}
 
 @media (max-width:360px){
   .about_content{

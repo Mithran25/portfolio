@@ -11,11 +11,6 @@ function Header() {
         return()=>clearTimeout(time);
     },[]);
 
-    // const[close,setClose]=useState(false);
-    // const nav_list=()=>{
-    //   setClose(!close);
-    // }
-
     const[open,setOpen]=useState(false);
     const nav=()=>{
         setOpen(!open);
