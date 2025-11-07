@@ -52,9 +52,10 @@ function Experience(){
                     <div className="list">
                         <h3>Hard Skills</h3>
                         <li>Java</li>
-                        <li>SQL</li>
+                        <li>Spring Boot</li>
+                        <li>SQL & MySQL</li>
                         <li>JavaScript</li>
-                        <li>React</li>
+                        <li>React.js & Next.js</li>
                         <li>HTML5 & CSS3</li>
                     </div>
                     <div className="seperate"></div>
